@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ojas Neelabh — B.Tech Data Science student portfolio." />
+  <title>Ojas Neelabh | Data Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <nav class="nav">
+    <a class="brand" href="#home">ON<span>.</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="menu" aria-label="Open menu">☰</button>
+  </nav>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="dot"></span> B.Tech Data Science · Class of 2028</div>
+        <h1>Turning data into<br><span>useful things.</span></h1>
+        <p class="hero-text">
+          I'm <strong>Ojas Neelabh</strong>, a third-year Data Science student at
+          MPSTME, Mumbai. I enjoy building practical machine-learning applications,
+          analytics dashboards, and data-driven products.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore projects <span>↗</span></a>
+          <a class="btn ghost" href="#about">About me</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="card-top"><span>DATA_SCIENCE.EXE</span><span>●</span></div>
+        <div class="terminal">
+          <p><span class="muted">$</span> whoami</p>
+          <p class="output">ojas.neelabh</p>
+          <p><span class="muted">$</span> focus</p>
+          <p class="output">machine_learning</p>
+          <p class="output">data_analytics</p>
+          <p class="output">artificial_intelligence</p>
+          <p><span class="muted">$</span> status</p>
+          <p class="success">● building & learning</p>
+          <span class="cursor"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section narrow">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="about-grid">
+        <div>
+          <h2>Student.<br><span>Builder.</span><br>Problem solver.</h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            I'm currently pursuing a <strong>B.Tech in Data Science</strong> at
+            Mukesh Patel School of Technology Management & Engineering (MPSTME),
+            Mumbai, with graduation planned for 2028.
+          </p>
+          <p>
+            My portfolio focuses on projects where data is more than a spreadsheet:
+            predictive models, interactive dashboards, and AI-powered applications
+            that turn analysis into decisions.
+          </p>
+          <div class="facts">
+            <div><span>01</span><strong>3rd Year</strong><small>Undergraduate</small></div>
+            <div><span>02</span><strong>2028</strong><small>Graduation</small></div>
+            <div><span>03</span><strong>Mumbai</strong><small>MPSTME · Juhu</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-label">02 / PROJECTS</div>
+      <div class="section-heading">
+        <h2>Selected <span>work.</span></h2>
+        <p>Three portfolio projects spanning machine learning, analytics, and NLP.</p>
+      </div>
+
+      <div class="projects">
+        <article class="project featured reveal">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <div class="tag">MACHINE LEARNING</div>
+            <h3>Customer Churn Prediction</h3>
+            <p>
+              An end-to-end ML application that predicts which customers are most
+              likely to leave and turns model output into actionable retention insights.
+            </p>
+            <div class="chips">
+              <span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>Streamlit</span>
+            </div>
+          </div>
+          <div class="project-visual churn">
+            <div class="metric"><small>HIGH RISK</small><strong>82%</strong><span>churn probability</span></div>
+            <div class="bars"><i style="height:45%"></i><i style="height:68%"></i><i style="height:55%"></i><i style="height:88%"></i><i style="height:76%"></i></div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <div class="tag">DATA ANALYTICS</div>
+            <h3>Retail Intelligence Dashboard</h3>
+            <p>
+              An interactive business dashboard exploring revenue, profit, products,
+              customers, and regional performance to surface useful business trends.
+            </p>
+            <div class="chips">
+              <span>Python</span><span>SQL</span><span>Plotly</span><span>Streamlit</span>
+            </div>
+          </div>
+          <div class="project-visual dashboard">
+            <div class="dash-head"><b>Revenue</b><strong>₹24.8M</strong></div>
+            <div class="line-chart"><svg viewBox="0 0 300 100" preserveAspectRatio="none"><polyline points="0,82 35,70 70,76 105,42 140,52 175,24 210,35 245,10 300,20" fill="none" stroke="currentColor" stroke-width="3"/></svg></div>
+            <div class="mini-stats"><span>Profit <b>₹4.2M</b></span><span>Orders <b>51K</b></span></div>
+          </div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <div class="tag">NLP / AI</div>
+            <h3>Sentiment Analysis</h3>
+            <p>
+              A text-analysis app that classifies customer feedback, visualizes
+              sentiment trends, and supports batch CSV analysis.
+            </p>
+            <div class="chips">
+              <span>Python</span><span>NLP</span><span>Transformers</span><span>Hugging Face</span>
+            </div>
+          </div>
+          <div class="project-visual sentiment">
+            <div class="sentiment-ring"><span>96.3%</span><small>positive</small></div>
+            <div class="sentiment-bars"><span><i style="width:76%"></i>Positive</span><span><i style="width:31%"></i>Neutral</span><span><i style="width:18%"></i>Negative</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section narrow">
+      <div class="section-label">03 / SKILLS</div>
+      <div class="skills-layout">
+        <div>
+          <h2>Tools I use to<br><span>build with data.</span></h2>
+          <p class="muted-text">A growing toolkit built through coursework and hands-on projects.</p>
+        </div>
+        <div class="skill-groups">
+          <div class="skill-group"><h4>LANGUAGES</h4><div><span>Python</span><span>SQL</span><span>C++</span><span>JavaScript</span></div></div>
+          <div class="skill-group"><h4>DATA & ML</h4><div><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>NLP</span></div></div>
+          <div class="skill-group"><h4>TOOLS & APPS</h4><div><span>Streamlit</span><span>Plotly</span><span>Git</span><span>GitHub</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-label">04 / CONTACT</div>
+      <div class="contact-card">
+        <div>
+          <div class="tag">OPEN TO OPPORTUNITIES</div>
+          <h2>Let's build something<br><span>interesting.</span></h2>
+          <p>No public contact details have been added yet. Add your email, GitHub, or LinkedIn when you're ready.</p>
+        </div>
+        <a class="btn primary" href="#home">Back to top ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Ojas Neelabh</span>
+    <span>B.Tech Data Science · MPSTME Mumbai</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
